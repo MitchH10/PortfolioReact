@@ -1,0 +1,103 @@
+.text-center {
+    text-align: center!important;
+  }
+  
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 70px;
+  }
+  
+  .cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+  }
+  
+  .blc {
+    font-size: 70px;
+  }
+  
+  .cd-words-wrapper b.is-visible {
+    position: relative;
+  }
+  
+  .cd-headline.clip span {
+    display: inline-block;
+    padding: .2em 0;
+  }
+  
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+  }
+  
+  .cd-headline.clip b {
+    opacity: 0;
+  }
+  
+  .cd-headline b.is-visible {
+    opacity: 1;
+    font-weight: 900;
+  }
+  
+.cd-headline {
+    color: white;
+}  
+
+.card {
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 15px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card img {
+    width: 30%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+
+  p{
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .card-body {
+      padding: 0.5em 1.2em;
+    }
+    .card-body .card-text {
+      margin: 0;
+    }
+    .card img {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 622px) {
+    .caption {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 835px) {
+    .card {
+    margin-top: 15px;
+      flex-direction: column;
+    }
+    .card img{
+        margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .card img {
+      width: 40%;
+    }
+  }
