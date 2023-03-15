@@ -1,0 +1,24 @@
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 830px;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+p a {
+    color: rgb(4, 207, 221);
+    text-decoration: underline;
+}
+h1 {
+    color: rgb(4, 207, 221);
+}
+
+@media only screen and (max-width: 840px) {
+    iframe {
+        width: 100%;
+    }
+  }

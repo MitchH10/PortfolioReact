@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import './Navbar.css'
 import AboutMe from './AboutMe';
-
+import Footer from './Footer';
+import Resume from './Resume';
+import Contact from './Contact';
+import Portfolio
+ from './Portfolio';
 // Here we destructure our props into their own distinct variables
 export default function Navbar() {
   const [page, setPage] = useState("About Me");
@@ -16,7 +20,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg py-3 navbar-dark shadow-sm">
           <div className="container">
             <a href="/" className="navbar-brand">
-              <span className="text-uppercase font-weight-bold">Mitchell Harper</span>
+              <span className="font-weight-bold">Mitchell Harper</span>
             </a>
 
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler"><span className="navbar-toggler-icon"></span></button>
@@ -34,12 +38,12 @@ export default function Navbar() {
         {
         {
           'About Me': <AboutMe />,
-          'Portfolio': <h1>Portfolio</h1>,
-          'Contact': <h1>Contact</h1>,
-          'Resume': <h1>Resume</h1>
+          'Portfolio': <Portfolio />,
+          'Contact': <Contact />,
+          'Resume': <Resume />
         }[page]
       }
-        
+        <Footer />
     </div>
   );
 }

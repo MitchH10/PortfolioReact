@@ -6,7 +6,7 @@
     display: inline-block;
     position: relative;
     text-align: left;
-    font-size: 70px;
+    font-size: 60px;
   }
   
   .cd-words-wrapper b {
@@ -18,7 +18,7 @@
   }
   
   .blc {
-    font-size: 70px;
+    font-size: 60px;
   }
   
   .cd-words-wrapper b.is-visible {
@@ -45,7 +45,7 @@
   }
   
 .cd-headline {
-    color: white;
+    color: rgb(4, 207, 221);
 }  
 
 .card {
@@ -57,6 +57,7 @@
   }
   .card-title {
     font-weight: bold;
+    color:rgb(4, 207, 221);
   }
   .card img {
     width: 30%;
@@ -67,10 +68,12 @@
   p{
     font-size: 20px;
   }
+
+  .typer {
+    color:rgb(4, 207, 221);
+    text-align: center;
+  }
   @media only screen and (max-width: 768px) {
-    a {
-      display: none;
-    }
     .card-body {
       padding: 0.5em 1.2em;
     }
@@ -82,8 +85,8 @@
     }
   }
   
-  @media only screen and (max-width: 622px) {
-    .caption {
+  @media only screen and (max-width: 300px) {
+    .typer {
         display: none;
     }
   }
@@ -101,3 +104,4 @@
       width: 40%;
     }
   }
+

@@ -1,8 +1,9 @@
 
 .navbar {
     background-color: #1A181B;
+    margin-bottom: 10px;
 }
 .navbar-brand {
-    font-size: 40px;
+    font-size: 50px;
     color: #15FFFF;
 }
