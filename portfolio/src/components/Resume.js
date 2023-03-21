@@ -70,7 +70,7 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            <p className="download">Download my <a href="./pdf/ResumeMarch23.pdf">resume</a>.</p>
+            <p className="download" >Download my <a href="./pdf/ResumeMarch23.pdf" download>resume</a>.</p>
             <iframe height='900px'
                     src="https://docs.google.com/document/d/e/2PACX-1vSmkNT42GL_sSJP4uapOQVx9i35uqE6LhWny51sFirxdSEtwMBc8CJNFAFD1zzhW46Lo-uSmJZr2AlL/pub?embedded=true">
             <p>Your browser does not support iframes.</p>
