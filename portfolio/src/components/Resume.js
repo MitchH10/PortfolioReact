@@ -43,7 +43,7 @@ export default function Resume() {
                                     <ul>
                                         <p>Git</p>
                                     </ul>
-                                    <h3>pbraries</h3>
+                                    <h3>Libraries</h3>
                                     <ul>
                                         <p>React</p>
                                         <p>Redux</p>
