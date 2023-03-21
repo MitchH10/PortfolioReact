@@ -15,8 +15,8 @@ export default function AboutMe() {
                 deleteSpeed={50}
                 delaySpeed={2000} />}
             </h1>
-            <div className="card">
-                <img src="./img/ProfilePic.jpg" className="card-img-top" />
+            <div className="card aboutc">
+                <img src="./img/ProfilePic.jpg" className="card-img-top aboutme" />
                 <div className="card-body">
                     <h2 className="card-title">Who I Am</h2>
                     <p className="card-text">

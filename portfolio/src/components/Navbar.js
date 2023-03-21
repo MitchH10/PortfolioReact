@@ -17,9 +17,10 @@ export default function Navbar() {
 
   return (
     <div>
-        <nav className="navbar navbar-expand-lg py-3 navbar-dark shadow-sm">
+      
+        <nav className="navbar navbar-expand-lg py-3 navbar-dark shadow-sm navbar navbar-default navbar-static-top" role = "navigation">
           <div className="container">
-            <a href="/" className="navbar-brand">
+            <a href="/" className="navbar-brand ">
               <span className="font-weight-bold">Mitchell Harper</span>
             </a>
 
