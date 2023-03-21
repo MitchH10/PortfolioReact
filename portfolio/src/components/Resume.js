@@ -47,7 +47,7 @@ export default function Resume() {
                                     <ul>
                                         <p>React</p>
                                         <p>Redux</p>
-                                        <p>Sequepze</p>
+                                        <p>Sequelize</p>
                                     </ul>
                             </div>
                             <div className="col-sm-6 col-lg-3">
