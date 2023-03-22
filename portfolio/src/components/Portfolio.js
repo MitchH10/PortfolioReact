@@ -163,7 +163,7 @@ export default function Portfolio(){
                                     <img className="card-img-top imglist" src="./img/PortList/Password.png" alt="Image of Password Generator"></img>
                                     <div className="card-body">
                                         <h4 className="card-title">Password Generator</h4>
-                                        <p className="card-text">A simple generator for created new and unique passwords to fit any criteria given.</p>
+                                        <p className="card-text">A simple generator for creating new and unique passwords to fit any criteria given.</p>
                                         <a className="btn btn-primary centerb" data-toggle="collapse" href="#collapse5" role="button">
                                             Description
                                         </a>
@@ -186,7 +186,7 @@ export default function Portfolio(){
                                     <img className="card-img-top imglist" src="./img/PortList/SQL.png" alt="Image of SQL Employee Database"></img>
                                     <div className="card-body">
                                         <h4 className="card-title">SQL Node Employee Database</h4>
-                                        <p className="card-text">Simple MySQL database for storing and accessing empoloyee information.</p>
+                                        <p className="card-text">Simple MySQL database for storing and accessing employee information.</p>
                                         <a className="btn btn-primary centerb" data-toggle="collapse" href="#collapse6" role="button">
                                             Description
                                         </a>
